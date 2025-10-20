@@ -10,6 +10,9 @@
   "author": "namik",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^17.2.3",
+    "dotevn": "^0.0.1-security",
+    "ejs": "^3.1.10",
     "express": "^5.1.0"
   }
 }

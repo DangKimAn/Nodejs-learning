@@ -10,3 +10,40 @@ tạo file package.json và các thông tin cần thiết: app name, version , .
 npm install <package name> 
 
 npm install <package> @<version>
+
+
+---- Babel 
+input : tat ca cu phep hien co cua javascipt
+
+output : chuyen ve cu phap js version cu, ma ung dung chay js co the hieu 
+
+Mô hình hoạt động :
+
+
+app.method (path , handler)
+
+
+template (view) engine : ejs 
+
+
+
+// config template engine 
+app.set('views' , './views') ///huong dan noi chua views
+
+app.set('view engine' , 'ejs') // ten engine su dung 
+
+
+// res.render() -> tra ve 1 file html 
+
+ENV Enviroment Variable 
+
+-> tao file .env 
+
+
+truy cap cac bien trong file .evn ->
+process.evn
+
+
+them dotenv
+
+require('dotenv').config()
