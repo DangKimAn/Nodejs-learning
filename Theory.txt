@@ -1,0 +1,12 @@
+npm : node package manager 
+
+cac cau lenh co ban cua npm 
+
+
+1. npm init 
+
+tạo file package.json và các thông tin cần thiết: app name, version , ....
+
+npm install <package name> 
+
+npm install <package> @<version>
